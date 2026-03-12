@@ -41,7 +41,7 @@ void* rt_thread_func(void* arg) {
 
 int main() {
     pthread_t t1, t2, t3;
-    // T1: 90 Prio, 1ms period | T2: 70 Prio, 5ms period | T3: 50 Prio, 10ms period [cite: 164-169]
+    // T1: 90 Prio, 1ms period | T2: 70 Prio, 5ms period | T3: 50 Prio, 10ms period 
     struct thread_config c1 = {1, 90, 1};
     struct thread_config c2 = {2, 70, 5};
     struct thread_config c3 = {3, 50, 10};
