@@ -7,11 +7,11 @@ This repository contains the source code and experimental results for Workshop 4
 - **Operating System:** Raspberry Pi OS Lite (64-bit).
 - **Required Tools:** `build-essential`, `stress`, `rt-tests`, `sysstat`.
 
-## 📂 Repository Structure
+## Repository Structure
 - `rt_task.c`: A periodic real-time task that measures jitter (deviation from a 1ms period).
 - `rt_multi.c`: An advanced multi-threaded program using the POSIX RT API with different priorities and periods.
 
-## 🚀 Installation & Usage
+## Installation & Usage
 
 ### 1. Install Dependencies
 ```bash
