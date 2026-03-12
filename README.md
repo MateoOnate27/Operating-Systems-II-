@@ -11,9 +11,4 @@ This repository contains the source code and experimental results for Workshop 4
 - `rt_task.c`: A periodic real-time task that measures jitter (deviation from a 1ms period).
 - `rt_multi.c`: An advanced multi-threaded program using the POSIX RT API with different priorities and periods.
 
-## Installation & Usage
 
-### 1. Install Dependencies
-```bash
-sudo apt update && sudo apt upgrade -y
-sudo apt install build-essential stress rt-tests -y
